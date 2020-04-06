@@ -1,193 +1,204 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
+
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
-		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
-</section>
 
 
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
+
+  <div id="bigMenu" class="menu">
+    <a href="#about">About Me</a>
+    <a href="#photos">My Photos</a>
+    <a href="#playlist">My Playlist</a>
+    <a href="#like">Like</a>
+    <a href="#qrcoder">QR code</a>
+    <a href="#spa">Q&A</a>
+    <a href="#contact">Contact Me</a>
+    <div class="menu-right">
+      <a href="">Bsd</a>
+    </div>
+  </div>
+
+
+  <section id="about" class="section">
+
+    <div style="height: 100px;">
+      <span></span>
+    </div>
+    <div style="font-family:Verdana, Geneva, Tahoma, sans-serif;">
+      <center>
+        <div style="font-size: 32px;">
+          <b>Me</b>
+        </div>
+        <br />
+      </center>
+      <div style="font-size: 20px ; padding-bottom: 5px; text-align: justify;">
+        <span> My name is Roi Katz. I'm 28 years old and originally from Efrat,
+          which is a settelment south to Jerusalem. I am a third year student in the
+          Information Systems Engeneering department in Ben Gurion University
+          I like hiking, photographing and playing on a guitar. My main expectation from
+          this course is to have much more proficiency in internet programming. Until now,
+          I had none. For instance, it was my first time working with HTML language. So it
+          is safe to say that this excersise was difficult but instructive.
+        </span>
+      </div>
+    </div>
+
+    <br />
+  </section>
+
+  <section id="photos" class="section">
+
+    <br />
+    <center>
+      <div style="font-size: 32px; font-family:Verdana, Geneva, Tahoma, sans-serif;">
+        <b>My Photos</b>
+      </div>
+    </center>
+    <br />
+
+    <center>
+      <img src="Pucon.jpg" alt="Lake" class="center">
+      <img src="Laba.jpg" alt="Laba" class="center">
+      <img src="Fiz roy.jpg" alt="Fiz roy" class="center">
+      <img src="fall.JPG" alt="Fall" class="center">
+      <img src="Salar.jpg" alt="Salar" class="center">
+      <img src="Auzengate.JPG" alt="Auzengate" class="center">
+      <img src="Punta Arenas.jpg" alt="Punta Arenas" class="center">
+      <img src="El bolson.jpg" alt="El bolson" class="center">
+    </center>
+
+    <br />
+  </section>
+
+
+  <section id="playlist" class="section">
+    <br />
+    <center>
+      <div style="font-size: 32px; font-family:Verdana, Geneva, Tahoma, sans-serif;">
+        <b>My Playlist</b>
+      </div>
+    </center>
+    <br />
+    <center>
+      <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/videoseries?list=pFptt7Cargc&list=TLPQMDYwNDIwMjDOB3JhvctZvw&index=1"
+        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+      </iframe>
+    </center>
+    <br />
+    <br />
+  </section>
+
+
+  <section id="like" class="section">
+    <br />
+    <center>
+      <div style="font-size: 32px; font-family:Verdana, Geneva, Tahoma, sans-serif;">
+        <b>Give Me Like</b>
+      </div>
+    </center>
+    <span class="likebtn-wrapper" data-theme="custom" data-icon_l_c="#220ea8" data-icon_l_c_v="#5293c6"
+      data-icon_d_c="#7d0e16" data-icon_d_c_v="#ff4d4d" data-identifier="item_1">
+    </span>
+    <script>(function (d, e, s) {
+        if (d.getElementById("likebtn_wjs")) return; a = d.createElement(e);
+        m = d.getElementsByTagName(e)[0]; a.async = 1; a.id = "likebtn_wjs";
+        a.src = s; m.parentNode.insertBefore(a, m)
+      })(document, "script", "//w.likebtn.com/js/w/widget.js");
+    </script>
+    <br />
+
+
+    <br />
+  </section>
+
+  <section id="qrcoder" class="section">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    scan my code
+    <br />
+    <br />
+    <br />
+  </section>
+
+  <section id="spa" class="section">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    ans
+    <br />
+    <br />
+    <br />
+  </section>
+
+  <section id="contact" class="section">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    contact me
+    <br />
+    <br />
+    <br />
+  </section>
+
+
+  <script type="text/javascript">
+    $(function () {
+      $("#nav a").click(function (e) {
+        e.preventDefault();
+        $('html,body').scrollTo(this.hash, this.hash);
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).scroll(function () {
+      $('#menu').toggle($(this).scrollTop() > 1000)
+    });​
+  </script>
 </body>
+
 </html>
