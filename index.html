@@ -145,15 +145,16 @@
       </div>
       <br />
       <div style="font-size: 15px ; padding-bottom: 5px; text-align: justify;">
-        <span> My name is Roi Katz. I'm 28 years old and originally from Efrat,
-          which is a settelment south to Jerusalem. I am a third year student in the
-          Information Systems Engeneering department in Ben Gurion University
-          I like hiking, photographing and playing on a guitar. My main expectation from
-          this course is to have much more proficiency in internet programming. Until now,
-          I had none. For instance, it was my first time working with HTML language. So it
-          is safe to say that this excersise was difficult but instructive.
+        <span> 
+          Web 1.0 is a read-only version. The websites contain information for searching but the interaction with the user is very limited.
+
+          Web 2.0 is meant for data analyst. In this version the websites can have an interaction with the costumers. Users can share and write information (for instance: Wikipedia), and not only read it.
+          
+          Web 3.0 is the "semantic internet", which means: now the internet can analyze the meaning of the users' search words. This is actually an upgradation of the back-end, after version that mainly focused on the front.
+                    
         </span>
       </div>
+      <br />
     </div>
   </section>
 
@@ -163,35 +164,26 @@
       <b>Give Feedback to Our Website</b>
     </div>
     <br />
-    <form action="kroi@post.bgu.ac.il" method="get" enctype="text/plain">
-      <p>Name: <input type="text" name="name" /></p>
-      <p>Email: <input type="text" name="email" /></p>
-      <p>Comments:
-        <br />
-        <textarea name="comments" rows="12" cols="35">Send your comments to the website.</textarea>
-        <br>
-        <p><input type="submit" name="submit" value="Send" />
-          <input type="reset" name="reset" value="Clear Form" />
-        </p>
+    <form action="mailto:kroi@post.bgu.ac.il?subject=subject&body=body">
+      <strong style="font-family:Verdana, Geneva, Tahoma, sans-serif;">
+      <label for="Email">Your Email:</label><br>
+      <input type="text" name="Email"><br>
+      <label for="subject">The Subject:</label><br>
+      <input type="text" name="subject"><br>
+      <label for="Message">Your Comment:</label><br>
+      <textarea name="body" id="message" rows="4" cols="20" value=""></textarea>
+          <br>
+      </strong>
+    <input type="imoji" class="button1" value="&#128519" onclick="push ('&#128519')"> 
+   
+        <br/>
+        <br/>
+    <input class="submit" type="submit" value="send">
     </form>
 
     <br />
   </section>
 
-
-  <script type="text/javascript">
-    $(function () {
-      $("#nav a").click(function (e) {
-        e.preventDefault();
-        $('html,body').scrollTo(this.hash, this.hash);
-      });
-    });
-  </script>
-  <script type="text/javascript">
-    $(document).scroll(function () {
-      $('#menu').toggle($(this).scrollTop() > 1000)
-    });​
-  </script>
 
   </script>
   <script type="text/javascript">
