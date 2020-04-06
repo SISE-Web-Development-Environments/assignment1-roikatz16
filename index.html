@@ -84,9 +84,8 @@
     </center>
     <br />
     <center>
-      <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/videoseries?list=pFptt7Cargc&list=TLPQMDYwNDIwMjDOB3JhvctZvw&index=1"
-        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=/pFptt7Cargc" frameborder="0"
+        allow="autoplay; encrypted-media" allowfullscreen>
       </iframe>
     </center>
     <br />
@@ -101,6 +100,7 @@
         <b>Give Me Like</b>
       </div>
     </center>
+    <br />
 
     <center>
       <!-- LikeBtn.com BEGIN -->
@@ -109,6 +109,7 @@
         data-identifier="item_1">
       </span>
     </center>
+
     <script>(function (d, e, s) {
         if (d.getElementById("likebtn_wjs")) return;
         a = d.createElement(e); m = d.getElementsByTagName(e)[0]; a.async = 1;
@@ -138,47 +139,42 @@
 
   <section id="spa" class="section">
     <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    ans
-    <br />
-    <br />
-    <br />
+    <div style="font-family:Verdana, Geneva, Tahoma, sans-serif;">
+      <div style="font-size: 25px;">
+        <b>Three main differences between Web1, Web2 and Web3</b>
+      </div>
+      <br />
+      <div style="font-size: 15px ; padding-bottom: 5px; text-align: justify;">
+        <span> My name is Roi Katz. I'm 28 years old and originally from Efrat,
+          which is a settelment south to Jerusalem. I am a third year student in the
+          Information Systems Engeneering department in Ben Gurion University
+          I like hiking, photographing and playing on a guitar. My main expectation from
+          this course is to have much more proficiency in internet programming. Until now,
+          I had none. For instance, it was my first time working with HTML language. So it
+          is safe to say that this excersise was difficult but instructive.
+        </span>
+      </div>
+    </div>
   </section>
 
   <section id="contact" class="section">
     <br />
+    <div style="font-size: 25px; font-family:Verdana, Geneva, Tahoma, sans-serif;">
+      <b>Give Feedback to Our Website</b>
+    </div>
     <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    contact me
-    <br />
-    <br />
+    <form action="kroi@post.bgu.ac.il" method="get" enctype="text/plain">
+      <p>Name: <input type="text" name="name" /></p>
+      <p>Email: <input type="text" name="email" /></p>
+      <p>Comments:
+        <br />
+        <textarea name="comments" rows="12" cols="35">Send your comments to the website.</textarea>
+        <br>
+        <p><input type="submit" name="submit" value="Send" />
+          <input type="reset" name="reset" value="Clear Form" />
+        </p>
+    </form>
+
     <br />
   </section>
 
@@ -195,6 +191,14 @@
     $(document).scroll(function () {
       $('#menu').toggle($(this).scrollTop() > 1000)
     });​
+  </script>
+
+  </script>
+  <script type="text/javascript">
+    function push(str) {
+      var text = document.getElementById('message');
+      text.value += str;
+    }
   </script>
 </body>
 
